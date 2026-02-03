@@ -1,6 +1,6 @@
 \documentclass[10pt,letterpaper]{article}
 \usepackage[letterpaper, margin=2cm]{geometry}
-\usepackage{graphicx,amsmath,verbatim,textcomp,amssymb,bm,enumerate,fontenc,graphicx,titling,cmbright,mathtools,tikz}
+\usepackage{graphicx,amsmath,verbatim,textcomp,amssymb,bm,enumerate,fontenc,graphicx,titling,cmbright,mathtools,tikz,tkz-euclide}
 \usepackage[OT1]{fontenc}
 
 \begin{document}	
@@ -106,13 +106,29 @@
 		\end{center}
 		
 		\subsection{Right Triangle Relationships}
-		
-%		\includegraphics[scale=0.3]{"../Pictures/Screenshots/Screenshot from 2026-01-14 14-42-26"}
+
+			\begin{center}
+				\begin{tikzpicture}
+					% Define vertices
+					\coordinate (A) at (0,0);
+					\coordinate (B) at (3,0);
+					\coordinate (C) at (3,2);
+					\node at (0,0)[below left]{$A$};
+					\node at (3,0)[below right]{$B$};
+					\node at (3,2)[above right]{$C$};
+					
+					\node at (1.5,0)[below]{$c$};
+					\node at (1.5,1.1)[above]{$b$};
+					\node at (3,1)[right]{$a$};
+
+					\draw[thick] (A) -- (B) -- (C) -- cycle;
+				\end{tikzpicture}
+			\end{center}
 		
 		\begin{enumerate}
 			\item 
 			
-			In the right triangle above, the capital letters represent the angle which they are adjacent, and the lowercase letters sides. Your knowledge of \textit{"SOH CAH TOA"} is assumed.
+			In the right triangle above, the capital letters represent the angle, and the lowercase letters sides. Your knowledge of \textit{"SOH CAH TOA"} is assumed.
 			
 			In a right triangle, such as shown above, the following identities hold true :
 				
@@ -152,6 +168,16 @@
 			\begin{equation}
 				A = \sqrt{s(s-a)(s-b)(s-c)}
 			\end{equation}
+			
+			\item Distance Formula
+			
+			The distance formula is a simple formula for getting the distance travelled by an object given a speed $r$ over a given time period, $t$. Keep in mind, $r$ and $t$ must use the same base units, such as kilometers. The formula is as follows :
+			
+			\begin{equation}
+				d = rt
+			\end{equation}
+			
+			One can additionally use other methods of finding distance travelled, such as through the usage of \textit{integration}. This will be briefly explained later on.
 			
 		\end{enumerate}
 		
@@ -236,24 +262,32 @@
 			
 		\end{enumerate}
 	
+		\subsection{Laws of Trigonometric Functions}
+		
+		\begin{enumerate}
+			
+		\item \textbf{Law of Cosines}
+		
+				The law of cosines allows one to find the side of any triangle, so long as it is a real triangle. The law of cosines is as follows :
+				
+				\begin{equation}
+					a^2 = b^2 + c^2 - 2bc*\cos(B)
+				\end{equation}
+				
+		\item \textbf{Law of Sines}
+		
+				The law of sines allows one to find the ratios between sides very easly.
+				
+				\begin{equation}
+					\frac{a}{\sin(A)} = \frac{b}{\sin(B)} * \frac{c}{\sin(C)}
+				\end{equation}
+		
+		\end{enumerate}
+	
 		\subsection{Properties of Logarithms}
 		
-		
-		
-		\begin{comment}
-			
-			
-		LAW OF COSINES
-		
-		an triangle (doesnt have to be right) finding angle B
- /m		======		a & c sides interchangeable (see above)
-		
-		a^2 = b^2 + c^2 - 2bc * cos(B)
-		
-		LAW OF SINES
-		
-		sinA/a = sinB/b * sinC/c
-		
-		\end{comment}
+		\begin{enumerate}
+			\item 
+		\end{enumerate}
 
 \end{document}
