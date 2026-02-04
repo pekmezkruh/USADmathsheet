@@ -21,8 +21,22 @@
 		
 		\item[] 
 		This Reference will cover a variety of topics and mathematical rules that are often need of additional practice to better succeed at USAD Competitions. The first part of this Reference will elaborate on various basic mathematics concepts, ideas, complete with supplementary visuals.
+		
+		Note that this reference sheet makes use of basic mathematics symbols and set notation. Here is quick overview of what each used symbol means.
+		
+		\begin{tabular}{c c}
+		$\Leftrightarrow$ & equivalence \\
+		\hline
+		$a\in\mathbb{X}$ & $a$ is an element of the set $\mathbb{X}$, where $\mathbb{X}$ is a list of numbers (a set) that $a$ can be found within \\
+		\hline		
+		$\theta$ & an unknown angle, used for the same purpose as $x$ but in the context of angles \\
+		\hline		
+		$\therefore$ & therefore \\
+		\hline		
+		$ : $ & such that \\
+		\end{tabular}
+		
 		\vskip 10pt
-		The second part of this Reference will go over, solve, and explain questions commonly found on USAD\\ Mathematics exams, approaches to these questions, and a variety of methods and explanations as to how these solutions work. Figures and supplementary text, along with step-by-step solutions to practice problems, will be provided. Any concepts at greater than an Advanced Algebra level will be explained.
 		
 	\end{enumerate}
 	
@@ -153,7 +167,7 @@
 		\subsection{Useful Equations}
 		
 		\begin{enumerate}
-			\item Circle Equation
+			\item \textbf{Circle Equation}
 			
 			The equation for a circle is as follows, where r is the radius of the circle, a is the horizontal offset and b is the vertical offset from (0,0):
 				
@@ -161,7 +175,7 @@
 				r^2 = (x+a)^2 + (y+b)^2
 			\end{equation}
 			
-			\item Heron's Formula
+			\item \textbf{Heron's Formula}
 			
 			Heron's formula allows you to solve for the area of any triangle with 3 given sides, \textit{a, b} and \textit{c}, using the semiperimeter of the triangle, which is defined as half the perimeter.
 			
@@ -169,7 +183,7 @@
 				A = \sqrt{s(s-a)(s-b)(s-c)}
 			\end{equation}
 			
-			\item Distance Formula
+			\item \textbf{Distance Formula}
 			
 			The distance formula is a simple formula for getting the distance travelled by an object given a speed $r$ over a given time period, $t$. Keep in mind, $r$ and $t$ must use the same base units, such as kilometers. The formula is as follows :
 			
@@ -286,8 +300,55 @@
 	
 		\subsection{Properties of Logarithms}
 		
+		Logarithms have 7 basic properties. All of these properties exist within the realm of assumption that  $b \in \mathbb{R}$, or that $b$ exists within (is an element of) the set of all real numbers.
+		
 		\begin{enumerate}
-			\item 
+			
+			\item \textbf{One-to-one}
+			
+			\begin{equation}
+			\log_{b}(y) = \log_{b}(x)\Leftrightarrow x = y : b>1
+			\end{equation}
+			
+			\item \textbf{Property of One}
+			
+			\begin{equation}
+			\log_{b}(1) = 0
+			\end{equation}
+			
+
+			This means that for any base $b$ raised to the 0th power, the result will always equal one.
+
+			\item \textbf{Multiplication Property}
+			
+			\begin{equation}			
+			\log_{b}(xy) = \log{b}(x) + \log_{b}(y)
+			\end{equation}			
+			
+			\item \textbf{Division Property}
+			
+			\begin{equation}			
+			\log_{b}(\frac{x}{y}) = \log_{b}(x) - \log_{b}(y)
+			\end{equation}		
+				
+			\item \textbf{Inverse Property}
+			
+			\begin{equation}			
+			b^{\log_{b}(x)} = x \Leftrightarrow \log_{b}(b^x) = x \therefore \log_{b}(b) = 1, \ln e = 1, \log 10 = 1. 
+			\end{equation}
+			\begin{center}						
+			This first part is true because this is simply $b^a$, where a is the original exponent. Logarithms evaluate for the exponent ($a$) that when base $b$ is raised to $a$, it will result in the value represented as $x$. 
+			\vskip 10pt
+			The second is true because $\log_{b}(b) = 1$, meaning that they cancel out. That simplifies to $1x = x$.
+			\end{center}			
+			\item \textbf{Change of Base (incl. formula)}
+			
+			\begin{equation}			
+			\log_{b}(x) = \frac{\log_{a}(x)}{\log_{a}(b)}
+			\end{equation}			
+			\begin{center}
+			Here, $a$ is our new desired base. One should ideally make it 10.
+			\end{center}
 		\end{enumerate}
 
 \end{document}
