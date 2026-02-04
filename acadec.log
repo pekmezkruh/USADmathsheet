@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.20)  4 FEB 2026 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.11.20)  4 FEB 2026 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,10 +904,10 @@ LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <12> not available
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 145.
+(Font)              Font shape `OT1/cmbr/m/sl' tried instead on input line 146.
 
 LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 170.
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 171.
 
  [2] [3] [4] [5] (./acadec.aux)
  ***********
@@ -918,7 +918,7 @@ L3 programming layer <2020/03/25>
 Here is how much of TeX's memory you used:
  21107 strings out of 467538
  450353 string characters out of 5423718
- 873369 words of memory out of 5000000
+ 873426 words of memory out of 5000000
  49493 multiletter control sequences out of 15000+600000
  644702 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -933,7 +933,7 @@ ght/hfbrbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi
 texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsl10.pfb><c:/texlive/20
 25/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-d
 ist/fonts/type1/public/hfbright/hfbrsy8.pfb>
-Output written on acadec.pdf (5 pages, 135928 bytes).
+Output written on acadec.pdf (5 pages, 136020 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
